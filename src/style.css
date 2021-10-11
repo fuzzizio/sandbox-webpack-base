@@ -1,0 +1,5 @@
+.hello {
+  background: url('./webpack-logo.svg') no-repeat;
+  font-size: 100px;
+  color: red;
+}
