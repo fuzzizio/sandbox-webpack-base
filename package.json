@@ -5,6 +5,8 @@
     "dev": "NODE_ENV=development webpack serve --open"
   },
   "dependencies": {
+    "@sentry/browser": "^6.13.3",
+    "@sentry/tracing": "^6.13.3",
     "lodash": "^4.17.21"
   },
   "devDependencies": {

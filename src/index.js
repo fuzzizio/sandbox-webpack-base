@@ -1,7 +1,11 @@
+import { initializeSentry } from './sentry';
 import { join } from 'lodash';
 import './style.css';
 import logo from './webpack-logo.svg';
 import { print } from './print.js';
+
+initializeSentry();
+// myUndefinedFunction();
 
 function component() {
   const element = document.createElement('div');
